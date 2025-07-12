@@ -30,7 +30,7 @@ const Projects = () => {
         "Feedback management platform with sentiment analysis, categorization, and dashboard visualization to monitor user satisfaction.",
       technologies: ["Python", "NLP", "Flask", "HTML", "CSS"],
       github: "https://github.com/SaiBharath28/User-Feedback-System",
-      live: "",
+      live: "https://user-feedback-system-phi.vercel.app/",
       featured: false
     },
     {
