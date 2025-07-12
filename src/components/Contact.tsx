@@ -19,34 +19,35 @@ const Contact = () => {
     {
       icon: "📧",
       label: "Email",
-      value: "alex@alexjohnson.dev",
-      link: "mailto:alex@alexjohnson.dev"
+      value: "saibharath282002@gmail.com",
+      link: "mailto:saibharath282002@gmail.com"
     },
     {
       icon: "📱",
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "+91 7032943252",
+      link: "tel:+917032943252"
     },
     {
       icon: "📍",
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Hyderbad, Telangana, India",
       link: null
     },
     {
       icon: "💼",
       label: "LinkedIn",
-      value: "linkedin.com/in/alexjohnson",
-      link: "https://linkedin.com/in/alexjohnson"
+      value: "linkedin.com/in/sai-bharath-balam-4500b02b2",
+      link: "https://linkedin.com/in/sai-bharath-balam-4500b02b2"
     }
   ];
 
   const socialLinks = [
-    { platform: "GitHub", url: "https://github.com", icon: "🔗" },
-    { platform: "Twitter", url: "https://twitter.com", icon: "🐦" },
-    { platform: "Instagram", url: "https://instagram.com", icon: "📷" },
-    { platform: "Dribbble", url: "https://dribbble.com", icon: "🎨" }
+    {
+      platform: "GitHub",
+      url: "https://github.com/SaiBharath28",
+      icon: "💻"
+    }
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
