@@ -3,75 +3,49 @@ import { Card, CardContent } from "@/components/ui/card";
 const Experience = () => {
   const experiences = [
     {
-      company: "TechCorp Inc.",
-      position: "Senior Full Stack Developer",
-      period: "2022 - Present",
-      location: "San Francisco, CA",
-      description: "Leading a team of 6 developers in building scalable web applications. Implemented microservices architecture that improved system performance by 40%.",
-      achievements: [
-        "Architected and deployed cloud infrastructure serving 1M+ users",
-        "Mentored junior developers and conducted technical interviews",
-        "Reduced deployment time by 60% through CI/CD optimization"
-      ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "TypeScript"],
-      type: "full-time"
-    },
-    {
-      company: "StartupXYZ",
-      position: "Frontend Developer",
-      period: "2021 - 2022",
-      location: "Remote",
-      description: "Developed user interfaces for a fintech platform, focusing on performance optimization and user experience improvements.",
-      achievements: [
-        "Improved page load times by 50% through code splitting",
-        "Built responsive design system used across 10+ products",
-        "Collaborated with UX team to increase user engagement by 35%"
-      ],
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js"],
-      type: "full-time"
-    },
-    {
-      company: "Digital Agency Pro",
-      position: "Web Developer",
-      period: "2020 - 2021",
-      location: "New York, NY",
-      description: "Created custom websites and web applications for various clients, specializing in e-commerce and content management systems.",
-      achievements: [
-        "Delivered 25+ client projects with 100% satisfaction rate",
-        "Increased client conversion rates by average of 25%",
-        "Established development workflows and best practices"
-      ],
-      technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
-      type: "full-time"
-    },
-    {
-      company: "Freelance",
-      position: "Full Stack Developer",
-      period: "2019 - 2020",
-      location: "Remote",
-      description: "Worked with various clients to build custom web solutions, from small business websites to complex web applications.",
-      achievements: [
-        "Built 15+ websites and web applications",
-        "Managed complete project lifecycle from concept to deployment",
-        "Maintained long-term client relationships with 90% retention rate"
-      ],
-      technologies: ["JavaScript", "Python", "React", "Django"],
-      type: "freelance"
-    }
+    company: "NxtWave",
+    position: "Software Development Faculty Trainee",
+    period: "June 2025 – Present",
+    location: "India (Hyderbad)",
+    description: "Undergoing intensive training in backend development while contributing to content creation and mentoring preparation. Building scalable server-side applications with real-world projects and hands-on backend logic.",
+    achievements: [
+      "Training in Python, Node.js, SQL, MongoDB, scalable server-side apps, API development, backend logic, and database integration.",
+      "Preparing to deliver backend content in university.",
+      "Responsible for backend projects, assessments, and content creation."
+    ],
+    technologies: ["Python", "Node.js", "SQL", "MongoDB", "Git", "CI/CD"],
+    type: "full-time"
+  },
+  {
+    company: "Cyber Security Internship+",
+    position: "Cybersecurity Intern",
+    period: "May 2023 – July 2023",
+    location: "India (Remote)",
+    description: "Gained practical experience in cybersecurity through real-world simulations involving threat detection, anomaly analysis, and system hardening techniques.",
+    achievements: [
+      "Applied KNN Classifier and Decision Trees for anomaly detection and threat analysis",
+      "Conducted vulnerability assessments and strengthened system security protocols",
+      "Explored encryption techniques and network security frameworks"
+    ],
+    technologies: ["Python", "KNN", "Decision Trees", "Encryption", "Cybersecurity Tools"],
+    type: "internship"
+  }
+
   ];
 
   const education = [
     {
-      institution: "University of Technology",
-      degree: "Bachelor of Science in Computer Science",
-      period: "2015 - 2019",
-      gpa: "3.8/4.0",
-      highlights: [
-        "Graduated Summa Cum Laude",
-        "President of Computer Science Society",
-        "Dean's List for 6 consecutive semesters"
-      ]
-    }
+  institution: "Vellore Institute of Technology, Vellore",
+  degree: "M.Tech Integrated in Software Engineering",
+  period: "2020 – 2025",
+  gpa: "CGPA: 7.73",
+  highlights: [
+    "Specialized in AI, Machine Learning, and Full-Stack Development",
+    "Completed major projects in Deep Learning and NLP-based Healthcare",
+    "Active participant in IEEE Summer School on AI & IoT"
+  ]
+}
+
   ];
 
   return (
