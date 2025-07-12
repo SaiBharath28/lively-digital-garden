@@ -31,18 +31,16 @@ const Footer = () => {
               className="text-3xl font-bold gradient-text cursor-pointer hover:scale-105 transition-transform duration-300 inline-block"
               onClick={scrollToTop}
             >
-              Alex Johnson
+              Balam Venkata Sai Bharath
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              Full Stack Developer passionate about creating exceptional digital experiences 
-              through innovative design and cutting-edge technology.
+              Full Stack Developer passionate about building intelligent, real-world solutions through AI-driven innovation and seamless web experiences.
             </p>
             <div className="flex space-x-4">
               {[
-                { icon: "🔗", href: "https://github.com", label: "GitHub" },
-                { icon: "💼", href: "https://linkedin.com", label: "LinkedIn" },
-                { icon: "🐦", href: "https://twitter.com", label: "Twitter" },
-                { icon: "📧", href: "mailto:alex@alexjohnson.dev", label: "Email" }
+                { icon: "🔗", href: "https://github.com/SaiBharath28", label: "GitHub" },
+                { icon: "💼", href: "https://linkedin.com/in/sai-bharath-balam-4500b02b2", label: "LinkedIn" },
+                { icon: "📧", href: "mailto:saibharath282002@gmail.com", label: "Email" }
               ].map((social, index) => (
                 <a
                   key={index}
@@ -82,24 +80,24 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <span className="text-lg">📧</span>
                 <a 
-                  href="mailto:alex@alexjohnson.dev"
+                  href="mailto:saibharath282002@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors duration-200"
                 >
-                  alex@alexjohnson.dev
+                  saibharath282002@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-lg">📱</span>
                 <a 
-                  href="tel:+15551234567"
+                  href="tel:+91 7032943252"
                   className="text-muted-foreground hover:text-primary transition-colors duration-200"
                 >
-                  +1 (555) 123-4567
+                  +91 7032943252
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-lg">📍</span>
-                <span className="text-muted-foreground">San Francisco, CA</span>
+                <span className="text-muted-foreground">Hyderbad, Telangana</span>
               </div>
             </div>
             
@@ -120,7 +118,7 @@ const Footer = () => {
         <div className="border-t border-border/50 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-muted-foreground text-sm">
-              © {currentYear} Alex Johnson. All rights reserved.
+              © {currentYear} Sai Bharath. All rights reserved.
             </p>
             
             <div className="flex items-center space-x-6 text-sm text-muted-foreground">
