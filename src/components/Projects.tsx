@@ -40,7 +40,7 @@ const Projects = () => {
         "A responsive app to measure typing speed and accuracy with real-time feedback, WPM tracking, and personalized tips.",
       technologies: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/SaiBharath28/typing-speed-test",
-      live: "",
+      live: "https://typing-speed-test-gules.vercel.app/",
       featured: false
     },
     {
