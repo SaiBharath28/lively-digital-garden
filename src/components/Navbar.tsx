@@ -50,7 +50,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="text-2xl font-bold gradient-text cursor-pointer"
                onClick={() => scrollToSection("home")}>
-            AJ
+            B
           </div>
           
           {/* Navigation Links */}
