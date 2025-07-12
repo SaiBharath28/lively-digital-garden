@@ -6,10 +6,12 @@ const Hero = () => {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const roles = [
-    "Full Stack Developer",
-    "UI/UX Designer", 
+    "Software Developer",
     "Software Engineer",
-    "Creative Thinker"
+    "Data Scientist",
+    "Data Analyst",
+    "Full Stack Developer"
+    
   ];
 
   useEffect(() => {
@@ -62,7 +64,7 @@ const Hero = () => {
                 👋 Hello, I'm
               </p>
               <h1 className="text-5xl lg:text-7xl font-bold gradient-text">
-                Alex Johnson
+                Balam Venkata Sai Bharath
               </h1>
               <div className="text-2xl lg:text-3xl font-semibold text-muted-foreground">
                 <span className="typing-cursor">{displayText}</span>
@@ -70,8 +72,7 @@ const Hero = () => {
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              I craft exceptional digital experiences through innovative design and 
-              cutting-edge technology. Let's build something amazing together.
+              Looking for a challenging career which demands the best of my abilities in terms of analytical skills that help in applying and enhancing my skills and knowledge.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -81,12 +82,7 @@ const Hero = () => {
               >
                 View My Work
               </Button>
-              <Button 
-                variant="outline" 
-                className="accent-glow-button text-lg px-8 py-6 border-accent text-accent hover:text-accent-foreground"
-              >
-                Download CV
-              </Button>
+              
             </div>
           </div>
           
