@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Hospital Management System",
+      title: "Medicare System",
       description:
         "A full-featured hospital operations system with role-based access, appointment scheduling, billing, and medical record management.",
       technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
