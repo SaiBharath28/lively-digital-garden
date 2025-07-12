@@ -3,37 +3,59 @@ import { Card, CardContent } from "@/components/ui/card";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Languages & Concepts",
       icon: "🎨",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion", "Three.js"],
+      skills: ["Python", "MySQL", "Data Structures", "OOP", "HTML", "CSS", "JavaScript"],
       color: "primary"
     },
     {
-      title: "Backend",
+      title: "AI & Machine Learning",
+      icon: "🧠",
+      skills: ["Machine Learning", "Deep Learning", "NLP", "Scikit-learn", "Hugging Face", "NumPy", "Pandas", "Matplotlib"],
+      color: "accent"
+    },
+    {
+      title: "Backend & Databases",
       icon: "⚙️",
-      skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Redis", "GraphQL"],
-      color: "accent"
-    },
-    {
-      title: "DevOps",
-      icon: "🚀",
-      skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Monitoring"],
+      skills: ["Flask", "Node.js", "SQL", "MongoDB", "API Development", "Backend Logic"],
       color: "primary"
     },
     {
-      title: "Design",
-      icon: "✨",
-      skills: ["Figma", "Adobe XD", "Photoshop", "UI/UX", "Prototyping", "User Research"],
+      title: "DevOps & Tools",
+      icon: "🚀",
+      skills: ["Git", "GitHub", "Git Bash", "Render", "CI/CD", "Agile", "SDLC"],
       color: "accent"
+    },
+    {
+      title: "Data & Visualization",
+      icon: "📊",
+      skills: ["Power BI", "Looker"],
+      color: "primary"
+    },
+    {
+      title: "Platforms & IDEs",
+      icon: "💻",
+      skills: ["VS Code", "PyCharm", "Google Colab", "Jupyter Notebook"],
+      color: "accent"
+    },
+    {
+      title: "Soft Skills",
+      icon: "🧑‍💼",
+      skills: ["Problem Solving", "Teamwork", "Presentation", "Time Management", "Self-learning"],
+      color: "primary"
     }
   ];
 
   const tools = [
-    { name: "VS Code", level: 95, icon: "💻" },
-    { name: "Git", level: 90, icon: "🔧" },
-    { name: "Postman", level: 85, icon: "📡" },
-    { name: "Slack", level: 92, icon: "💬" }
-  ];
+  { name: "VS Code", level: 95, icon: "💻" },
+  { name: "Git & GitHub", level: 90, icon: "🔧" },
+  { name: "Google Colab / Jupyter", level: 85, icon: "📘" },
+  { name: "Power BI", level: 85, icon: "📊" },
+  { name: "PyCharm", level: 80, icon: "🧰" },
+  { name: "Hugging Face", level: 80, icon: "🤗" },
+  { name: "Render", level: 75, icon: "🌐" },
+  { name: "Slack / Teams", level: 75, icon: "💬" }
+];
 
   return (
     <section id="skills" className="py-20 relative">
