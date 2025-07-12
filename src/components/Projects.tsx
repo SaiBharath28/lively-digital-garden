@@ -10,7 +10,7 @@ const Projects = () => {
         "A real-time chat platform with secure user authentication, group and private messaging, and live updates using Flask and Socket.IO.",
       technologies: ["Flask", "Socket.IO", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/SaiBharath28/Chat-Appliaction",
-      live: "",
+      live: "https://typing-speed-test-264nv4v3f-saibharath28s-projects.vercel.app/",
       featured: true
     },
     {
