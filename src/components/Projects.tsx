@@ -50,7 +50,7 @@ const Projects = () => {
         "An intelligent code review tool using Google Gemini Pro to analyze Python, Java, C, and C++ code, highlight bugs, and suggest improvements.",
       technologies: ["Python", "Flask", "Google Gemini", "HTML", "CSS"],
       github: "https://github.com/SaiBharath28/AI-Code-Review",
-      live: "https://ai-code-review-vgwg.onrender.com",
+      live: "https://ai-code-review-1-0t4o.onrender.com/",
       featured: true
     }
   ];
