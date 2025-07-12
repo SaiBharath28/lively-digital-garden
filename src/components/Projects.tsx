@@ -19,8 +19,8 @@ const Projects = () => {
       description:
         "A full-featured hospital operations system with role-based access, appointment scheduling, billing, and medical record management.",
       technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-      github: "https://github.com/SaiBharath28/Hospital-Management-System",
-      live: "",
+      github: "https://github.com/SaiBharath28/medicare-system",
+      live: "https://prescripto-frontend-uu5b.onrender.com",
       featured: false
     },
     {
