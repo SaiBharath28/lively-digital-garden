@@ -45,13 +45,24 @@ const Projects = () => {
     },
     {
       id: 5,
+      title: "TaskTracker – Simple Productivity App",
+      description:
+        "A minimal and intuitive task management application that helps users track daily activities. Features include task creation with optional due dates, tags, filtering by status (all, pending, completed, due soon), and a real-time progress dashboard. Clean UI with dark mode toggle and user sign-in support.",
+      technologies: ["React", "TypeScript", "TailwindCSS", "ShadCN/UI", "Supabase Auth", "Supabase PostgreSQL", "RLS (Row Level Security)", "Vite", "React Toastify", "@dnd-kit/core"]
+
+      github: "https://github.com/SaiBharath28/TaskTracker-Simple-Productivity-App",
+      live: "https://loving-task-board.lovable.app",
+      featured: false
+    },
+    {
+      id: 6,
       title: "AI Code Review Application",
       description:
         "An intelligent code review tool using Google Gemini Pro to analyze Python, Java, C, and C++ code, highlight bugs, and suggest improvements.",
       technologies: ["Python", "Flask", "Google Gemini", "HTML", "CSS"],
       github: "https://github.com/SaiBharath28/AI-Code-Review",
       live: "https://ai-code-review-1-0t4o.onrender.com/",
-      featured: true
+      featured: false
     }
   ];
 
