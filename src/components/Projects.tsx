@@ -4,15 +4,16 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      id: 1,
-      title: "TaskTracker – Simple Productivity App",
-      description:
-        "A minimal and intuitive task management application that helps users track daily activities. Features include task creation with optional due dates, tags, filtering by status (all, pending, completed, due soon), and a real-time progress dashboard. Clean UI with dark mode toggle and user sign-in support.",
-      technologies: ["React", "TypeScript", "TailwindCSS", "ShadCN/UI", "Supabase Auth", "Supabase PostgreSQL", "RLS (Row Level Security)", "Vite", "React Toastify", "@dnd-kit/core"]
-      github: "https://github.com/SaiBharath28/TaskTracker-Simple-Productivity-App",
-      live: "https://loving-task-board.lovable.app",
-      featured: false
-    },
+  id: 1,
+  title: "TaskTracker – Simple Productivity App",
+  description:
+    "A minimal and intuitive task management application that helps users track daily activities. Features include task creation with optional due dates, tags, filtering by status (all, pending, completed, due soon), and a real-time progress dashboard. Clean UI with dark mode toggle and user sign-in support.",
+  technologies: ["React", "TypeScript", "TailwindCSS", "ShadCN/UI", "Supabase Auth", "Supabase PostgreSQL", "RLS (Row Level Security)", "Vite", "React Toastify", "@dnd-kit/core"],
+  github: "https://github.com/SaiBharath28/TaskTracker-Simple-Productivity-App",
+  live: "https://loving-task-board.lovable.app",
+  featured: false
+}
+
     {
       id: 2,
       title: "Medicare System",
