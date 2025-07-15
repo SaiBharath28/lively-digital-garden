@@ -44,8 +44,19 @@ const Projects = () => {
       live: "https://typing-speed-test-gules.vercel.app/",
       featured: false
     },
+
     {
       id: 5,
+      title: "Chat Application",
+      description:
+        "A real-time chat platform with secure user authentication, group and private messaging, and live updates using Flask and Socket.IO.",
+      technologies: ["Flask", "Socket.IO", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/SaiBharath28/Chat-Appliaction",
+      live: "https://chat-appliaction-1h63.vercel.app/login",
+      featured: true
+    },
+    {
+      id: 6,
       title: "AI Code Review Application",
       description:
         "An intelligent code review tool using Google Gemini Pro to analyze Python, Java, C, and C++ code, highlight bugs, and suggest improvements.",
