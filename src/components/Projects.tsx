@@ -12,7 +12,7 @@ const Projects = () => {
   github: "https://github.com/SaiBharath28/TaskTracker-Simple-Productivity-App",
   live: "https://loving-task-board.lovable.app",
   featured: false
-}
+},
 
     {
       id: 2,
