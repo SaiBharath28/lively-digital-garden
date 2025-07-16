@@ -25,15 +25,16 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 3,
-      title: "User Feedback System",
-      description:
-        "Feedback management platform with sentiment analysis, categorization, and dashboard visualization to monitor user satisfaction.",
-      technologies: ["Python", "NLP", "Flask", "HTML", "CSS"],
-      github: "https://github.com/SaiBharath28/User-Feedback-System",
-      live: "https://user-feedback-system-phi.vercel.app/",
-      featured: false
-    },
+  id: 3,
+  title: "Expense Tracker",
+  description:
+    "A smart personal finance manager that allows users to track incomes and expenses, categorize transactions, view analytics, and maintain budgets. Features include quick transaction logging, light/dark theme toggle, category-based visualizations, and export options.",
+  technologies: ["JavaScript", "React", "Supabase", "Tailwind CSS"],
+  github: "https://github.com/SaiBharath28/Personal-Expense-Tracker/tree/main/savvy-spend-sight-43-main",
+  live: "https://savvy-spend-sight-43.lovable.app/",
+  featured: false
+},
+
     {
       id: 4,
       title: "Typing Speed Test",
@@ -46,15 +47,16 @@ const Projects = () => {
     },
 
     {
-      id: 5,
-      title: "Chat Application",
-      description:
-        "A real-time chat platform with secure user authentication, group and private messaging, and live updates using Flask and Socket.IO.",
-      technologies: ["Flask", "Socket.IO", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/SaiBharath28/Chat-Appliaction",
-      live: "https://chat-appliaction-1h63.vercel.app/login",
-      featured: true
-    },
+  id: 5,
+  title: "Messenger",
+  description:
+    "A polished real-time chat application with user authentication, friend request system, and secure messaging. Features include dynamic user discovery, live status indicators, and seamless private chats using Supabase and Socket.IO. UI is clean and responsive with enhanced visual hierarchy and interactions.",
+  technologies: ["React", "TypeScript", "Flask", "Socket.IO", "Supabase", "Tailwind CSS"],
+  github: "https://github.com/SaiBharath28/instant-social-messenger",
+  live: "https://instant-social-messenger.lovable.app",
+  featured: true
+},
+
     {
       id: 6,
       title: "AI Code Review Application",
