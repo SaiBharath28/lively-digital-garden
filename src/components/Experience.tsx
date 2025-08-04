@@ -4,7 +4,7 @@ const Experience = () => {
   const experiences = [
     {
     company: "NxtWave",
-    position: "Software Development Faculty Trainee",
+    position: "Software Development Faculty",
     period: "June 2025 – Present",
     location: "India (Hyderbad)",
     description: "Undergoing intensive training in backend development while contributing to content creation and mentoring preparation. Building scalable server-side applications with real-world projects and hands-on backend logic.",
@@ -17,7 +17,7 @@ const Experience = () => {
     type: "full-time"
   },
   {
-    company: "Edu Station",
+    company: "EduStation",
     position: "Cybersecurity Internship",
     period: "May 2023 – July 2023",
     location: "India (Remote)",
