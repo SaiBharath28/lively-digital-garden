@@ -17,8 +17,8 @@ const Experience = () => {
     type: "full-time"
   },
   {
-    company: "Cyber Security Internship+",
-    position: "Cybersecurity Intern",
+    company: "Edu Station",
+    position: "Cybersecurity Internship",
     period: "May 2023 – July 2023",
     location: "India (Remote)",
     description: "Gained practical experience in cybersecurity through real-world simulations involving threat detection, anomaly analysis, and system hardening techniques.",
@@ -102,7 +102,7 @@ const Experience = () => {
                                 ? 'bg-primary/10 text-primary border border-primary/20'
                                 : 'bg-accent/10 text-accent border border-accent/20'
                             }`}>
-                              {exp.type === 'full-time' ? 'Full-time' : 'Freelance'}
+                              {exp.type === 'full-time' ? 'Full-time' : 'Intership'}
                             </span>
                           </div>
                         </div>
