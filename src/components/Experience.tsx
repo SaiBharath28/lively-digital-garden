@@ -9,9 +9,9 @@ const Experience = () => {
     location: "India (Hyderbad)",
     description: "Undergoing intensive training in backend development while contributing to content creation and mentoring preparation. Building scalable server-side applications with real-world projects and hands-on backend logic.",
     achievements: [
-      "Training in Python, Node.js, SQL, MongoDB, scalable server-side apps, API development, backend logic, and database integration.",
-      "Preparing to deliver backend content in university.",
-      "Responsible for backend projects, assessments, and content creation."
+      " Gained hands-on experience building full-stack applications using HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
+      "Developed and deployed scalable web apps on platforms like Render and Vercel, implementing API integrations and database connectivity.",
+      "Attended technical workshops and bootcamps on N8N, Crew AI, Generative AI, and the Lovable Framework to stay updated with modern AI tools and automation."
     ],
     technologies: ["Python", "Node.js", "SQL", "MongoDB", "Git", "CI/CD"],
     type: "full-time"
